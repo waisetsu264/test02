@@ -25,16 +25,7 @@ http://www.tooplate.com/view/2097-pop
 </head>
 
 <body>
-    <iframe id="myiframe" src="http://127.0.0.1:5000/" width="200px" height="100px">
-    </iframe>
-    <input type="button" onclick="javascript:refreshFrame();" value="Refresh Frame" />
-    <script type="text/javascript">
     
-    function refreshFrame(){
-        document.getElementById('myframe').contentWindow.location.reload(true);
-    }
-    
-    </script>
     <div id="tm-bg"></div>
     <div id="tm-wrap">
         <div class="tm-main-content">
@@ -47,6 +38,16 @@ http://www.tooplate.com/view/2097-pop
                             <p>范馨勻的個人網頁</p>     
                         </div>                        
                     </div>
+                    <iframe id="myiframe" src="http://127.0.0.1:5000/" width="400px" height="200px">
+                    </iframe>
+                    <input type="button" onclick="javascript:refreshFrame();" value="Refresh Frame" />
+                    <script type="text/javascript">
+                    
+                    function refreshFrame(){
+                        document.getElementById('myframe').contentWindow.location.reload(true);
+                    }
+                    
+                    </script>
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="content">
                             <div class="grid">
